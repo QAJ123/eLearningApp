@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4822651300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Eleraning application",
+            "match": {
+              "location": "ELearningStepDefs.user_navigates_to_Eleraning_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:55:03.449Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1952910300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Sign up into Elearning portal",
+        "description": "",
+        "id": "elearning-module-functionlaities;sign-up-into-elearning-portal",
+        "after": [
+          {
+            "result": {
+              "duration": 240647900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3674666300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Sign up button",
+            "match": {
+              "location": "ELearningStepDefs.user_clicks_on_Sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3387906000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user provide manadtory field on user registration form",
+            "match": {
+              "location": "ELearningStepDefs.user_provide_manadtory_field_on_user_registration_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45079100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify user logged in successfully",
+            "match": {
+              "location": "ELearningStepDefs.verify_user_loggedin_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@SignUp"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4961087200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Eleraning application",
+            "match": {
+              "location": "ELearningStepDefs.user_navigates_to_Eleraning_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T11:55:17.579Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1265674400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Sign in with valid credentials and send a mail",
+        "description": "",
+        "id": "elearning-module-functionlaities;sign-in-with-valid-credentials-and-send-a-mail",
+        "after": [
+          {
+            "result": {
+              "duration": 270161100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4067733100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user login with valid credentials",
+            "match": {
+              "location": "ELearningStepDefs.user_login_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1496118600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on Inbox",
+            "match": {
+              "location": "ELearningStepDefs.user_clicks_on_Inbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8991343300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Compose a message and sent to receipients",
+            "match": {
+              "location": "ELearningStepDefs.compose_a_message_and_sent_to_receipients()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71562600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify sent successfull toast message",
+            "match": {
+              "location": "ELearningStepDefs.verify_sent_successfull_toast_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@LoginAndSendMail"
+          }
+        ]
+      }
+    ],
+    "name": "Elearning module functionlaities",
+    "description": "",
+    "id": "elearning-module-functionlaities",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ELearning.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
